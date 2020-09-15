@@ -1,0 +1,10 @@
+slide img{height:500px;overview:hidden;}
+
+
+.mySlides
+{  display: none;
+   width:100%;
+   height:500px;
+   animation:fading 10s infinite}
+
+@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}} 
